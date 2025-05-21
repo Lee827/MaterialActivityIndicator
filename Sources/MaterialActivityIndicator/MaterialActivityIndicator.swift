@@ -28,7 +28,7 @@ public class MaterialActivityIndicatorView: UIView {
     private let indicator = CAShapeLayer()
     private let animator = MaterialActivityIndicatorAnimator()
 
-    private var isAnimating = false
+    public var isAnimating = false
 
     convenience init() {
         self.init(frame: .zero)
